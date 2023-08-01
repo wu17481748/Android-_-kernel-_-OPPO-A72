@@ -20,6 +20,9 @@ obj-$(CONFIG_SUSPEND)	+= wakeup_reason.o
 
 ifneq (,$(findstring 6873,$(CONFIG_MTK_PLATFORM)))
 	subdir-ccflags-y += -DMTK_6873_PLATFORM
-else ifneq(mt6885,$(findstring 6885,$(CONFIG_MTK_PLATFORM)))
+else
+
+ifneq (mt6885,$(findstring 6885,$(CONFIG_MTK_PLATFORM)))
 	subdir-ccflags-y += -DMTK_6885_PLATFORM
+endif
 endif
