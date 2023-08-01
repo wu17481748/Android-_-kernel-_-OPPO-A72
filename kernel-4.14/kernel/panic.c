@@ -35,7 +35,7 @@
 
 #ifdef VENDOR_EDIT
 // Kun.Hu@TECH.BSP.Stability.PHOENIX_PROJECT 2019/06/11, Add for phoenix project
-#include "../../../../../vendor/oppo/oppo_phoenix/kernel/oppo_phoenix/oppo_phoenix.h"
+#include "../dervers/soc/oppo/oppo_phoenix/oppo_phoenix.h"
 #include <linux/timer.h>
 #include <linux/timex.h>
 #include <linux/rtc.h>
