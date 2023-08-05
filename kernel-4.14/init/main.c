@@ -101,7 +101,7 @@
 
 #ifdef VENDOR_EDIT
 // Kun.Hu@TECH.BSP.Stability.PHOENIX_PROJECT 2019/06/11, Add for phoenix project
-#include "../dervers/soc/oppo/oppo_phoenix/oppo_phoenix.h"
+#include "../drivers/soc/oppo/oppo_phoenix/oppo_phoenix.h"
 #endif  //VENDOR_EDIT
 
 static int kernel_init(void *);
